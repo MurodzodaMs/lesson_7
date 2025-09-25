@@ -30,22 +30,20 @@
             </div>
             <div class="hidden lg:flex">
                 <div class="flex gap-2 items-center">
-                        <i class="fa-brands fa-vk text-blue-500 text-5xl"></i>
+                    <i class="fa-brands fa-vk text-blue-500 text-5xl"></i>
 
-                    <button
-                        class="flex items-center gap-2 px-5 py-2 rounded-full bg-green-500 text-white font-medium">
+                    <button class="flex items-center gap-2 px-5 py-2 rounded-full bg-green-500 text-white font-medium">
                         <i class="fa-brands fa-whatsapp text-2xl"></i>
                         WhatsApp
                     </button>
 
-                    <button
-                        class="flex items-center gap-2 px-5 py-2 rounded-full bg-sky-500 text-white font-medium">
+                    <button class="flex items-center gap-2 px-5 py-2 rounded-full bg-sky-500 text-white font-medium">
                         <i class="fa-brands fa-telegram text-2xl"></i>
                         Telegram
                     </button>
                 </div>
             </div>
-            <i class="fa-solid fa-bars text-3xl"></i>
+            <i class="fa-solid lg:hidden fa-bars text-3xl"></i>
         </nav>
         <nav class="flex px-4 py-6 gap-4 max-w-7xl m-auto items-center justify-between flex-row">
             <ul class="hidden text-xl lg:flex justify-between w-[70%] font-medium">
@@ -56,9 +54,23 @@
                 <li>Партнеры</li>
                 <li>Контакты</li>
             </ul>
-            <input type="text" placeholder="поиск по каталогу" class="py-3 px-7 w-full lg:w-fit rounded-full bg-gray-100 text-gray-500">
+            <input type="text" placeholder="поиск по каталогу"
+                class="py-3 px-7 w-full lg:w-fit rounded-full bg-gray-100 text-gray-500">
         </nav>
     </header>
+
+    <section
+        class="flex flex-col px-10 py-16 pb-6 lg:rounded-3xl max-w-7xl m-auto items-center justify-between lg:flex-row bg-cover bg-center"
+        style="background-image: url('src/img/image\ copy\ 2.png');">
+
+        <aside class="flex flex-col w-full lg:w-7/12 gap-10">
+            <h1 class="text-4xl font-medium text-white">Бренд MEDO - российское производство <br> транспортных лент, прутковых <br> транспортеров для
+                сельхозтехники <br>по уробке урожая овощных культур</h1>
+            <button class=" w-full lg:w-fit bg-white text-green-700 py-3 px-6 rounded-full font-medium">Оставить заявку</button>
+        </aside>
+        <img src="./src/img/image copy.png" class="w-full mb-40 mt-10 lg:mt-0 lg:mb-20 lg:w-5/12" alt="">
+    </section>
+
 </body>
 
 </html>
