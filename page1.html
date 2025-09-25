@@ -1,11 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="./src/output.css">
 </head>
+
 <body>
-    
+    <header>
+        <nav class="flex px-4 py-6 gap-4 max-w-7xl m-auto items-center justify-between flex-row">
+            <img src="./src/img/image.png" class="w-[140px] lg:w-[200px]" alt="">
+            <p class="text-sm hidden lg:block">Качественные детали и узлы <br> для сельскохозяйственной техники</p>
+            <div class="hidden lg:flex gap-3 items-end">
+                <i class="fa-solid fa-phone text-xl"></i>
+                <div class="text-end">
+                    <p class="text-sm text-end">звонок бесплатный</p>
+                    <h3 class="text-xl font-bold">8 800 505 72 32</h3>
+                </div>
+            </div>
+            <div class="hidden lg:flex gap-3 items-end">
+                <i class="fa-solid fa-envelope text-xl"></i>
+                <div class="text-end">
+                    <p class="text-sm text-end">отвечаем быстро</p>
+                    <p class="text-xl font-bold">info@kd-grupp.com</p>
+                </div>
+            </div>
+            <div class="hidden lg:flex">
+                <div class="flex gap-2 items-center">
+                        <i class="fa-brands fa-vk text-blue-500 text-5xl"></i>
+
+                    <button
+                        class="flex items-center gap-2 px-5 py-2 rounded-full bg-green-500 text-white font-medium">
+                        <i class="fa-brands fa-whatsapp text-2xl"></i>
+                        WhatsApp
+                    </button>
+
+                    <button
+                        class="flex items-center gap-2 px-5 py-2 rounded-full bg-sky-500 text-white font-medium">
+                        <i class="fa-brands fa-telegram text-2xl"></i>
+                        Telegram
+                    </button>
+                </div>
+            </div>
+            <i class="fa-solid fa-bars text-3xl"></i>
+        </nav>
+        <nav class="flex px-4 py-6 gap-4 max-w-7xl m-auto items-center justify-between flex-row">
+            <ul class="hidden text-xl lg:flex justify-between w-[70%] font-medium">
+                <li>Главная</li>
+                <li>Каталог</li>
+                <li>О нас</li>
+                <li>Новости</li>
+                <li>Партнеры</li>
+                <li>Контакты</li>
+            </ul>
+            <input type="text" placeholder="поиск по каталогу" class="py-3 px-7 w-full lg:w-fit rounded-full bg-gray-100 text-gray-500">
+        </nav>
+    </header>
 </body>
+
 </html>
